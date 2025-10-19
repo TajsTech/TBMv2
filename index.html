@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="main-header">
+  <nav class="nav-bar">
+    <div class="logo">Taj Begent Media</div>
+
+    <!-- Hamburger Menu -->
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#photo-gallery">Photography</a></li>
+      <li><a href="#video-gallery">Videography</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main>
+    <!-- Photography Section -->
+    <section id="photo-gallery">
+      <h2 class="sub-header">Photography</h2>
+      <div class="filter-tabs" id="photo-filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="urban">Urban</button>
+        <button data-filter="aviation">Aviation</button>
+        <button data-filter="transport">Transport</button>
+      </div>
+      <div class="photo-grid" id="photoGrid"></div>
+    </section>
+
+    <!-- Videography Section -->
+    <section id="video-gallery">
+      <h2 class="sub-header">Videography</h2>
+      <div class="filter-tabs" id="video-filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="commercial">Commercial</button>
+        <button data-filter="shortfilm">Short Film</button>
+        <button data-filter="product">Product</button>
+        <button data-filter="event">Event</button>
+      </div>
+      <div class="photo-grid" id="videoGrid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
