@@ -1,0 +1,1 @@
+[![pages-build-deployment](https://github.com/TajsTech/TBMv2/actions/workflows/pages/pages-build-deployment/badge.svg?event=deployment_status)](https://github.com/TajsTech/TBMv2/actions/workflows/pages/pages-build-deployment)
